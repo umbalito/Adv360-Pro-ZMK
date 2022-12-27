@@ -19,10 +19,10 @@
 #include <dt-bindings/zmk/backlight.h>
 
 /* German umlauts */
-ZMK_UNICODE_PAIR(   de_ae,      N0, N0,  E, N4,    N0, N0,  C, N4)
-ZMK_UNICODE_PAIR(   de_oe,      N0, N0,  F, N6,    N0, N0,  D, N6)
-ZMK_UNICODE_PAIR(   de_ue,      N0, N0,  F,  C,    N0, N0,  D,  C)
-ZMK_UNICODE_SINGLE( de_eszett,  N0, N0,  D,  F)
+ZMK_UNICODE_PAIR(   de_ae,      KP_N0, KP_N2, KP_N2, KP_N8,    KP_N0, KP_N1, KP_N9, KP_N6)
+ZMK_UNICODE_PAIR(   de_oe,      KP_N0, KP_N2, KP_N4, KP_N6,    KP_N0, KP_N2, KP_N1, KP_N4)
+ZMK_UNICODE_PAIR(   de_ue,      KP_N0, KP_N2, KP_N5, KP_N2,    KP_N0, KP_N2, KP_N2, KP_N0)
+ZMK_UNICODE_SINGLE( de_eszett,  KP_N0, KP_N2, KP_N2, KP_N3)
 
 / {
   behaviors {
