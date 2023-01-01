@@ -51,7 +51,7 @@
             bindings = <
  &kp EQUAL     &kp N1             &kp N2      &kp N3      &kp N4  &kp N5                     &trans      &mo 3     &kp N6  &kp KP_NUM  &kp EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp MINUS
    &kp TAB      &kp Q              &kp W       &kp E       &kp R   &kp T            &kp PRINTSCREEN      &none      &kp Y   &kp KP_N7  &kp KP_N8      &kp KP_N9     &kp KP_MINUS    &kp BSLH
-   &kp ESC      &kp A       &kp C_VOL_UP  &kp C_NEXT    &kp C_PP   &kp G               &kp LEFT_WIN  &kp LCTRL   &kp LALT                              &kp LGUI        &kp RCTRL       &none     &kp H  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS    &kp SQT
+   &kp ESC  &macro_ae       &kp C_VOL_UP  &kp C_NEXT    &kp C_PP   &kp G               &kp LEFT_WIN  &kp LCTRL   &kp LALT                              &kp LGUI        &kp RCTRL       &none     &kp H  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS    &kp SQT
  &kp LSHFT     &trans  &kp C_VOLUME_DOWN  &kp C_PREV  &kp C_MUTE   &kp B                      &none      &none   &kp HOME       &none      &none      &kp PG_UP            &none       &none     &kp N  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &kp RSHFT
      &mo 2  &kp GRAVE           &kp CAPS    &kp C_RW    &kp C_FF   &mo 5                    &kp DEL    &kp END  &kp PG_DN   &kp ENTER  &kp KP_N0         &kp UP         &kp DOWN  &kp KP_DOT  &kp RBKT      &mo 2
             >;
@@ -89,11 +89,11 @@
 
         layer_FN2 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &kp F4  &kp F5  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F1   &kp C  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &trans   &trans   &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &kp F10  &kp F11  &kp F12  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &kp F7   &kp F8   &kp F9  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &kp F4   &kp F5   &kp F6  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &kp F1   &kp F2   &kp F3  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
