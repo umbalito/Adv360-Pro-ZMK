@@ -1,3 +1,9 @@
+macro_ssharp: macro_ssharp{
+compatible = "zmk,behavior-macro";
+label = "macro_ssharp";
+#binding-cells = <0>;
+bindings = <&kp RCTRL>, <&kp S>;
+};
 macro_oe: macro_oe{
 compatible = "zmk,behavior-macro";
 label = "macro_oe";
