@@ -1,8 +1,14 @@
+macro_uue: macro_uue{
+compatible = "zmk,behavior-macro";
+label = "macro_uue";
+#binding-cells = <0>;
+bindings = <&sk RIGHT_ALT>, <&sk RIGHT_SHIFT>, <&kp Y>;
+};
 macro_aee: macro_aee{
 compatible = "zmk,behavior-macro";
 label = "macro_aee";
 #binding-cells = <0>;
-bindings = <&sk RIGHT_ALT>, <&sk LEFT_SHIFT>, <&kp Q>;
+bindings = <&sk RIGHT_ALT>, <&sk RIGHT_SHIFT>, <&kp Q>;
 };
 macro_euro: macro_euro{
 compatible = "zmk,behavior-macro";
