@@ -35,7 +35,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "CONTROL_Z";
             #binding-cells = <0>;
-            bindings = <&kp Y>, <&kp Z>;
+            bindings = <&lt 1 Y>, <&kp Z>;
             mods = <(MOD_LCTL)>;
             keep-mods = <(MOD_LCTL)>;
         };
