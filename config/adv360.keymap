@@ -36,8 +36,8 @@
             label = "CONTROL_Z";
             #binding-cells = <0>;
             bindings = <&kp Y>, <&kp Z>;
-            mods = <(MOD_LCTR)>;
-            keep-mods = <(MOD_LCTR)>;
+            mods = <(MOD_LCTL)>;
+            keep-mods = <(MOD_LCTL)>;
         };
   };
 
