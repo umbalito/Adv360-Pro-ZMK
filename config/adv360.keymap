@@ -31,13 +31,13 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
-            bspc_del: backspace_delete {
+        bspc_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
-            label = "ctrz";
+            label = "BACKSPACE_DELETE";
             #binding-cells = <0>;
-            bindings = <&kp Y>, <&kp Z>;
-            mods = <(MOD_LCTL)>;
-            keep-mods = <(MOD_LCTL)>;
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <(MOD_RSFT)>;
         };
   };
 
