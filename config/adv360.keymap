@@ -63,9 +63,9 @@
             mods = <(MOD_RGUI)>;
             keep-mods = <(MOD_RGUI)>;
         };
-        win_down: windows_esc {
+        win_esc: windows_esc {
             compatible = "zmk,behavior-mod-morph";
-            label = "WINDOWS_DOWN";
+            label = "WINDOWS_ESC";
             #binding-cells = <0>;
             bindings = <&kp B>, <&kp ESC>;
             mods = <(MOD_RGUI)>;
